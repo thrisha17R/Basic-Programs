@@ -1,0 +1,10 @@
+print("Even or Odd")
+
+n = int(input("Enter a number"))
+
+rem = n % 2
+
+if rem == 0:
+    print("Even")
+else:
+    print("Odd")
